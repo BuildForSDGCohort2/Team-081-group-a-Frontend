@@ -27,6 +27,14 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "author": "Abubabakar Lawwal",
-  "license": "ISC"
+  "author": "Team-081-group-a-frontend",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abumib/Team-081-group-a-Frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abumib/Team-081-group-a-Frontend/issues"
+  },
+  "homepage": "https://github.com/Abumib/Team-081-group-a-Frontend#readme"
 }
