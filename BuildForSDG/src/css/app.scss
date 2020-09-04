@@ -33,6 +33,13 @@ h3 bg-secondary {
   width: 120rem;
 }
 
+.flex-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .signup-row {
   display: flex;
   flex-direction: column;
