@@ -15,7 +15,7 @@ export default function App() {
 
   if (!token) {
     return (
-      <div>
+      <div className="App">
         <LandingPage />
       </div>
     )
