@@ -1,11 +1,36 @@
-import React from "react";
-import "./styles.css";
+import React, { useState } from "react";
+import SignUpStudent from './components/SignUpStudent'
+import SignUpTutor from './components/SignUpTutor'
+import Login from './components/Login'
+import "./css/app.scss";
+import "./css/signup-login.scss"
+import LandingPage from "./components/LandingPage";
+
 
 export default function App() {
+  const [page, setPage] = useState('signup')
+  // const [token, setToken] = useState('token')
+  const [token, setToken] = useState('')
+
+
+  if (!token) {
+    return (
+      <div className="App">
+        <LandingPage />
+      </div>
+    )
+  }
+  
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>Find a Tutor app</h1>
+      <SignUpStudent />
+      <br/>
+      <br/>
+      <SignUpTutor />
+      <br />
+      <br />
+      <Login />
     </div>
   );
 }
