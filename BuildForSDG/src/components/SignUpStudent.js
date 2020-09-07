@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import useField from '../hook/index'
 import {
   Form,
@@ -24,7 +24,7 @@ function SignUpStudent(props) {
               <h2>Create a Student Account</h2>
               <p>Please fill the form to create an account with us</p>
               <Col xs="10" lg="8" md="10" className="signup-col border">
-              <h3 className="bg-secondary">Personal Information</h3>
+              <h3 className="">Personal Information</h3>
                 <Form className="form-style">
                   <Form.Group controlId="exampleForm.ControlInput1">
                     <Form.Label>Email</Form.Label>
@@ -153,7 +153,7 @@ function SignUpStudent(props) {
                       <option>Doctorate PhD</option>
                     </Form.Control>
                 </Form.Group>
-                <Button variant="primary" type="submit" block>
+                <Button variant="secondary" type="submit" block>
                   Register
                 </Button>
               </Form>

@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React, { useState } from 'react'
 import useField from '../hook/index'
 import {
@@ -7,6 +8,7 @@ import {
   Container,
   Button
 } from 'react-bootstrap'
+import Footer from "./footer";
 
 function SignUpTutor(props) {
   const firstname = useField('text').form
@@ -19,11 +21,13 @@ function SignUpTutor(props) {
   const experience = useField('text').form
 
   return (
+    <div>
       <Container>
+      <h2 style={{textAlign: 'center'}}>Tutor Signup</h2>
         <Row className="justify-content-md-center signup-row">
-          <h2 style={{textAlign: 'center'}}>Tutor Signup</h2>
+          
           <Col className="signup-col border" xs="8">
-            <h3 className="bg-secondary">Personal Information</h3>
+            <h3 className="">Personal Information</h3>
             <Form className="form-style">
               <Col className="form-syle-col1">
                 <Form.Group controlId="exampleForm.ControlInput3">
@@ -159,7 +163,7 @@ function SignUpTutor(props) {
               </Col>
               
 
-              <h3 className="bg-secondary work-col">Work Information</h3>
+              <h3 className=" work-col">Work Information</h3>
               <Col className="form-style-col2">
                 <Form.Group controlId="exampleForm.ControlSelect5">
                   <Form.Label>Level of Education</Form.Label>
@@ -200,14 +204,17 @@ function SignUpTutor(props) {
                     </Form.Control>
                   </Form.Group>
                 </Form.Row>
-                <Button variant="primary" type="submit" block>
+                <Button variant="secondary" type="submit" block>
                   Register
                 </Button>
               </Col>
             </Form>
           </Col>
         </Row>
+        
       </Container>
+      <Footer/>
+      </div>
   )
 }
 
