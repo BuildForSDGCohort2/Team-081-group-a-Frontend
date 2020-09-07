@@ -1,0 +1,27 @@
+.wrapper {
+  background-color: #0E7C7B;
+  background-image: url('../images/landing-image.jpg');
+  background-repeat: no-repeat;
+  // width: 20em;
+  // height: 20em;
+  background-size: cover;
+  // border: 1px solid green;
+}
+
+
+
+.hero-text {
+  
+}
+
+.signup-button-wrapper {
+  display: inline-block;
+  padding: 10px;
+  // display: block;
+}
+
+.signup-button {
+  margin: 20px 20px 5px 20px;
+  border: 7px solid green;
+  width: 100px;
+}
