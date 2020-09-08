@@ -1,12 +1,12 @@
 import React from "react";
-import SignUpStudent from './components/SignUpStudent'
-import SignUpTutor from './components/SignUpTutor'
-import Login from './components/Login'
+import SignUpStudent from "./components/SignUpStudent"
+import SignUpTutor from "./components/SignUpTutor"
+import Login from "./components/Login"
 import "./css/app.scss";
 import "./css/signup-login.scss"
 import LandingPage from "./components/LandingPage";
 //import Home from "./components/Home";
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 export default function App() {
   //const [page, setPage] = useState('signup')
@@ -25,7 +25,6 @@ export default function App() {
   return (
     <BrowserRouter>
     <div className="App">
-    {console.log("whatspopoin")}
       <Switch>
         <Route path="/" component={LandingPage} exact/> 
         <Route path="/Login" component={Login} />

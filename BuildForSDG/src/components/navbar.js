@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React from "react";
-import { Link } from 'react-router-dom'; // this helps us to link to different routes
-import '../css/navbar.scss';
+import { Link } from "react-router-dom"; // this helps us to link to different routes
+import "../css/navbar.scss";
 //import "../styles.css";
 //import {Navbar , NavDropdown, Nav, Form, Button, FormControl } from "react-bootstrap";
 

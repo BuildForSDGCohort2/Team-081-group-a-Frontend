@@ -1,7 +1,7 @@
 // eslint-disable-next-line
-import React, { useState } from 'react'
+import React from "react"
 import NavigationBar from "./navbar";
-import { useHistory } from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 
 function Home(props) {
 

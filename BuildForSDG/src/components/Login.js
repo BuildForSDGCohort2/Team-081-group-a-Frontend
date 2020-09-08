@@ -1,18 +1,18 @@
 // eslint-disable-next-line
-import React from 'react'
+import React from "react"
 import {
   Row,
   Container,
   Form,
   Col,
   Button,
-} from 'react-bootstrap'
-import useField from '../hook';
+} from "react-bootstrap"
+import useField from "../hook";
 import "../css/Login.scss";
 
 function Login(props) {
-  const email = useField('email');
-  const password = useField('password');
+  const email = useField("email");
+  const password = useField("password");
   
   return (
     <div className="loginPage">
