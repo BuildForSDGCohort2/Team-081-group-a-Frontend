@@ -1,27 +1,88 @@
-.wrapper {
-  background-color: #0E7C7B;
-  background-image: url('../images/landing-image.jpg');
-  background-repeat: no-repeat;
-  // width: 20em;
-  // height: 20em;
-  background-size: cover;
-  // border: 1px solid green;
-}
+// .wrapper {
+//   background-color: #0E7C7B;
+//   background-image: url('../images/landing-image.jpg');
+//   background-repeat: no-repeat;
+//   // width: 20em;
+//   // height: 20em;
+//   background-size: cover;
+//   // border: 1px solid green;
+// }
 
 
 
-.hero-text {
+// .hero-text {
   
+// }
+
+// .signup-button-wrapper {
+//   display: inline-block;
+//   padding: 10px;
+//   // display: block;
+// }
+
+// .signup-button {
+//   margin: 20px 20px 5px 20px;
+//   border: 7px solid green;
+//   width: 100px;
+// }
+
+
+
+// styling the body
+
+
+// .landing-page {
+//   font-family:"Montserrat";
+//   background: #eee;
+//   padding: 0 16px;
+//   background-color: #eee;
+//   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+//   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+// }
+
+/* Styling our Navbar  */
+
+
+
+h1.welcomePageHeader {
+  position: relative;
+  top: 50px;
+  left: 180px;
+  width: 20%;
+}
+  
+/* styling the table */
+table {
+  position: relative;
+  top: 100px;
+  left: 180px;
+  text-align: justify;
+  width: 60%;
 }
 
-.signup-button-wrapper {
-  display: inline-block;
-  padding: 10px;
-  // display: block;
+td {
+  padding: 0 20px;
 }
 
-.signup-button {
-  margin: 20px 20px 5px 20px;
-  border: 7px solid green;
-  width: 100px;
+th {
+  text-align: center;
+  position: relative;
+  left: 20px;
+  padding-bottom: 30px;
 }
+
+svg.pic {
+  position: relative;
+  left: 100px;
+  width: 60%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat-Bold';
+}
+
+.footer {
+  z-index: 4;
+}
+  

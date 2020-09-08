@@ -1,18 +1,21 @@
-import React from 'react'
+// eslint-disable-next-line
+import React from "react";
 import {
   Row,
   Container,
   Form,
   Col,
   Button,
-} from 'react-bootstrap'
-import useField from '../hook';
+} from "react-bootstrap";
+import useField from "../hook";
+import "../css/Login.scss";
 
 function Login(props) {
-  const email = useField('email')
-  const password = useField('password')
+  const email = useField("email");
+  const password = useField("password");
   
   return (
+    <div className="loginPage">
     <Container>
       <Row className="login-wrapper border">
         <Col className="left-col">
@@ -24,7 +27,7 @@ function Login(props) {
 
         <Col>
             <Form className="form-style">
-              <h3 className="bg-secondary">Login</h3>
+              <h3 className="">Login</h3>
               <Form.Group controlId="exampleForm.ControlInput3">
                 <Form.Label>Email</Form.Label>
                 <Form.Control
@@ -43,13 +46,14 @@ function Login(props) {
                   {...password}
                 />
               </Form.Group>
-              <Button className="button-primary" type="submit">
+              <Button className="btn-secondary" type="submit">
                 Login
               </Button>
           </Form>
         </Col>
       </Row>
     </Container>
+    </div>
   )
 }
 
