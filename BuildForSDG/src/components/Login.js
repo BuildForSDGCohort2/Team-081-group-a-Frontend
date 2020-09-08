@@ -1,12 +1,12 @@
 // eslint-disable-next-line
-import React from "react"
+import React from "react";
 import {
   Row,
   Container,
   Form,
   Col,
   Button,
-} from "react-bootstrap"
+} from "react-bootstrap";
 import useField from "../hook";
 import "../css/Login.scss";
 

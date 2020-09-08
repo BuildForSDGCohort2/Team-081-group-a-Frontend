@@ -49,7 +49,8 @@ h1.welcomePageHeader {
   position: relative;
   top: 50px;
   left: 180px;
-  width: 20%; }
+  width: 20%;
+}
   
 /* styling the table */
 table {
@@ -58,24 +59,29 @@ table {
   left: 180px;
   text-align: justify;
   width: 60%;
-}  
+}
+
 td {
   padding: 0 20px;
 }
+
 th {
   text-align: center;
   position: relative;
   left: 20px;
   padding-bottom: 30px;
 }
+
 svg.pic {
   position: relative;
   left: 100px;
   width: 60%;
 }
+
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Montserrat-Bold';
 }
+
 .footer {
   z-index: 4;
 }
