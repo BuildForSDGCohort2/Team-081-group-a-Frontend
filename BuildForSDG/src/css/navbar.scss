@@ -3,29 +3,27 @@
   font-family: "Ubuntu";
   font-size: 2.2rem !important;
   font-weight: bold;
-  margin-left : 0;
-  color : white;
+  margin-left: 0;
+  color: white;
 }
 
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat";
-  color : black;
+  color: black;
   font-weight: bold;
 }
 
 //ipad pro view
-@media only screen and (min-width: 768px) and (max-width:1039px){
-
-  .navbar-brand {
+@media only screen and (min-width: 768px) and (max-width: 1039px) {
+.navbar-brand {
     font-family: "Ubuntu";
     font-size: 2.5rem !important;
     font-weight: bold;
-    margin-left : 3%;
-    color : white;
-  }
+    margin-left: 3%;
+    color: white;
+ }
 }
-
 
 //desktop design
 @media only screen and (min-width: 1040px) {
@@ -33,8 +31,8 @@
   font-family: "Ubuntu";
   font-size: 2.5rem !important;
   font-weight: bold;
-  margin-left : 5%;
-  color : white;
+  margin-left: 5%;
+  color: white;
 }
   
 nav.navbar {
@@ -42,18 +40,18 @@ nav.navbar {
 }
   
 .item {
-  color : black;
+  color: black;
 }
 
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat";
-  color : black;
+  color: black;
   font-weight: bold;
 }
-.item:hover{
- background-color : white;
-}
 
+.item:hover {
+ background-color: white;
+}
 }
   

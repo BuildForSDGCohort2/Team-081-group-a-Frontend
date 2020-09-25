@@ -1,8 +1,8 @@
 // eslint-disable-next-line
-import React, { useState } from 'react'
+import React, { useState } from "react";
 // import useField from '../hook/index'
-import {Form,Row,Col,Container,Button} from 'react-bootstrap';
-import '../css/sign-up-tutor.scss';
+import {Form,Row,Col,Container,Button} from "react-bootstrap";
+import "../css/sign-up-tutor.scss";
  import NavigationBar from "./navbar";
  import Foot from "./Foot";
  import {emailValidator, nameValidator, passwordValidator, phoneValidator,fileValidator} from "./validator";
@@ -105,7 +105,7 @@ function SignUpTutor() {
     <div>
       <NavigationBar />
       <Container>
-      <h2 style={{textAlign: 'center'}}>Tutor Signup</h2>
+      <h2 style={{textAlign: "center"}}>Tutor Signup</h2>
       <div><ul>{message.map((msg, i) => <li key={i}>{msg}</li>)}</ul></div>
         <Row className="d-flex align-items-center justify-content-md-center signup-row">
           
