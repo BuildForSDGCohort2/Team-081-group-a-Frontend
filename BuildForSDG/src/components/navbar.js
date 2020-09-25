@@ -9,24 +9,21 @@ function NavigationBar(){
     return (
 <div className="container-fluid">
 <nav className="navbar navbar-expand-lg navbar-light">
-  <Link className="navbar-brand" to="/">FindATutor</Link>
+  <Link className="navbar-brand" to="/">Academmia</Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav ml-auto">
-      <li className="nav-item active">
-        {/* <Link className="nav-link" to="/">Home <span class="sr-only">(current)</span></Link> */}
+      <li className="nav-item" >
+        <Link className="nav-link" to="/Login" style={{color:'black'}} >Login</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/Login">Login</Link>
-      </li>
-      <li className="nav-item">
-        <Link className="nav-link" to="/SignUpTutor">Join as a Tutor</Link>
+        <Link className="nav-link" to="/SignUpTutor" style={{color:'black'}}>Join as a Tutor</Link>
         
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/SignUpStudent" tabindex="-1" aria-disabled="true">Join as a Student</Link>
+        <Link className="nav-link" to="/SignUpStudent" style={{color:'black'}}>Join as a Student</Link>
       </li>
     </ul>
   </div>

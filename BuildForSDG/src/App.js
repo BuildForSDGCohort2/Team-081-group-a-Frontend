@@ -1,10 +1,12 @@
 import React from "react";
-import SignUpStudent from "./components/SignUpStudent"
-import SignUpTutor from "./components/SignUpTutor"
-import Login from "./components/Login"
+import SignUpStudent from "./components/SignUpStudent";
+import SignUpTutor from "./components/SignUpTutor";
+import Login from "./components/Login";
 import "./css/app.scss";
-import "./css/signup-login.scss"
+import "./css/signup-login.scss";
 import LandingPage from "./components/LandingPage";
+// import Foot from "./components/Foot";
+// import NavigationBar from "./components/navbar";
 //import Home from "./components/Home";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -21,16 +23,18 @@ export default function App() {
   //     </div>
   //   )
   // }
-  
+   
   return (
     <BrowserRouter>
     <div className="App">
+      {/* <NavigationBar /> */}
       <Switch>
         <Route path="/" component={LandingPage} exact/> 
         <Route path="/Login" component={Login} />
         <Route path="/SignUpStudent" component={SignUpStudent} />
         <Route path="/SignUpTutor" component={SignUpTutor}/>
       </Switch>
+       {/* <Foot />  */}
     </div>
     </BrowserRouter>
     // eslint-disable-next-line

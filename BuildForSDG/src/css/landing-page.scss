@@ -1,88 +1,82 @@
-// .wrapper {
-//   background-color: #0E7C7B;
-//   background-image: url('../images/landing-image.jpg');
-//   background-repeat: no-repeat;
-//   // width: 20em;
-//   // height: 20em;
-//   background-size: cover;
-//   // border: 1px solid green;
-// }
 
+.svg-image{
+  width:100%;
+  height : 100%;
+}
 
+.pic{
+  max-width : 90%;
+  height : 80%;
+}
 
-// .hero-text {
-  
-// }
-
-// .signup-button-wrapper {
-//   display: inline-block;
-//   padding: 10px;
-//   // display: block;
-// }
-
-// .signup-button {
-//   margin: 20px 20px 5px 20px;
-//   border: 7px solid green;
-//   width: 100px;
-// }
-
-
-
-// styling the body
-
-
-// .landing-page {
-//   font-family:"Montserrat";
-//   background: #eee;
-//   padding: 0 16px;
-//   background-color: #eee;
-//   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-//   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-
-// }
-
-/* Styling our Navbar  */
-
-
-
-h1.welcomePageHeader {
-  position: relative;
-  top: 50px;
-  left: 180px;
-  width: 20%;
+.welcomePageHeader {
+ color : #252525;
+ margin-left : 7.5%;
+ margin-bottom : 5%;
+ font-family: "Ubuntu";
+ font-size: 2.5rem !important;
+ font-weight: bold;
 }
   
-/* styling the table */
-table {
-  position: relative;
-  top: 100px;
-  left: 180px;
-  text-align: justify;
-  width: 60%;
+.tutor-student-row{
+  margin-top : 1%;
+  padding-left : 7.5%;
+  margin-bottom : 1%;
 }
 
-td {
-  padding: 0 20px;
+.tutor-student-header{
+  font-family: "Ubuntu";
+  font-size: 2.5rem !important;
+   color : #303131;
+  // color : white;
+  font-weight : bold;
 }
 
-th {
+.welcomePage-paragraph{
+  color : #737576;
+  font-family: "Ubuntu";
+  font-size : 17px;
+  font-weight : bold;
+}
+
+
+.tutorBtn{
+  background-color: rgb(85, 236, 85);
+  color : white;
+  width : 100%;
+  height : 22%;;
+  border : 1px solid  rgb(85, 236, 85);
+  border-radius : 10px;
   text-align: center;
-  position: relative;
-  left: 20px;
-  padding-bottom: 30px;
+  padding-top: 5%;
+  font-size: 20px;
+  cursor: pointer;
+
 }
 
-svg.pic {
-  position: relative;
-  left: 100px;
-  width: 60%;
+.tutorBtn:hover{
+  background-color: #399FEB;
+  color : white;
+  border: 1px solid #399FEB ;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Montserrat-Bold';
+.studentBtn{
+  background-color: white;
+  color : rgb(85, 236, 85);
+  width : 100%;
+  height : 22%;;
+  border : 1px solid  rgb(85, 236, 85);
+  border-radius : 10px;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 20px;
+  cursor: pointer;
+
 }
 
-.footer {
-  z-index: 4;
+.studentBtn:hover{
+  background-color: #399FEB;
+  color : white;
+  border: 1px solid #399FEB ;
 }
   
