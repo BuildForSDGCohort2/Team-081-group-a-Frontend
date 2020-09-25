@@ -90,7 +90,7 @@ function Login(props) {
       <div className="login-container">
     <Container>
       <Row className="login-wrapper">
-        <Col className="left-col">
+        <Col className="left-col" xl>
         <Form className="form-style">
               <h3 className="tutor-login-header">Tutor Login</h3>
               <div><ul>{tutorMessage.map((msg, i) => <li key={i}>{msg}</li>)}</ul></div>
@@ -122,7 +122,7 @@ function Login(props) {
           </Form>
         </Col>
 
-        <Col>
+        <Col xl>
             <Form className="form-style">
               <h3 className="student-login-header">Student Login</h3>
               <div><ul>{studentMessage.map((msg, i) => <li key={i}>{msg}</li>)}</ul></div>

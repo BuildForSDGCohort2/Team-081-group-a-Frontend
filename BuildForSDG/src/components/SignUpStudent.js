@@ -55,7 +55,7 @@ function SignUpStudent(props) {
     if(!emailValidator(email) || !nameValidator(firstname) || !nameValidator(lastname)  || !passwordValidator(password) || !phoneValidator(phone)){
 
       if(!emailValidator(email)){
-        setMessage((prev) => [...prev, "invalid message"]);
+        setMessage((prev) => [...prev, "invalid email"]);
       }
 
       if(!nameValidator(firstname)){
@@ -81,10 +81,6 @@ function SignUpStudent(props) {
   }
 
 
-
-  
-
-
   return (
     <div>
       <NavigationBar />
@@ -93,7 +89,7 @@ function SignUpStudent(props) {
               <h2>Create a Student Account</h2>
               <p>Please fill the form to create an account with us</p>
               <div><ul>{message.map((msg, i) => <li key={i}>{msg}</li>)}</ul></div>
-              <Col xs="10" lg="8" md="10" className="signup-col border">
+              <Col xs="12" lg="8" md="12" className="signup-col border">
               <h3 className="">Personal Information</h3>
                 <Form className="form-style">
                   <Form.Group controlId="exampleForm.ControlInput1">
@@ -102,8 +98,8 @@ function SignUpStudent(props) {
                       type='email'
                       name="email"
                       placeholder="Enter Email"
+                      required
                       onChange={onChangeSignupDetaiils}
-                       required
                     />
                   </Form.Group>
                   <Form.Group controlId="exampleForm.ControlInput2">
@@ -112,8 +108,9 @@ function SignUpStudent(props) {
                        type="password"
                       name="password"
                       placeholder="Enter Password"
-                      onChange={onChangeSignupDetaiils}
                       required
+                      onChange={onChangeSignupDetaiils}
+                    
                     />
                   </Form.Group>
                   <Form.Row>
@@ -124,8 +121,8 @@ function SignUpStudent(props) {
                         name="firstname"
                         className="form-input bg-light"
                         placeholder="Firstname"
-                        onChange={onChangeSignupDetaiils}
                         required
+                        onChange={onChangeSignupDetaiils}
                         
                         />
                     </Form.Group>
@@ -136,8 +133,8 @@ function SignUpStudent(props) {
                         name="lastname"
                         className="form-input bg-light"
                         placeholder="Lastname"
-                        onChange={onChangeSignupDetaiils}
                         required
+                        onChange={onChangeSignupDetaiils}
                       />
                     </Form.Group>
                   </Form.Row>
@@ -149,8 +146,9 @@ function SignUpStudent(props) {
                         name="date"
                         className="form-input bg-light"
                         placeholder="date"
-                        onChange={onChangeSignupDetaiils}
                         required
+                        onChange={onChangeSignupDetaiils}
+                        
                         />
                     </Form.Group>
                     <Form.Group as={Col} md="6" controlId="exampleForm.ControlInput6">
@@ -159,8 +157,9 @@ function SignUpStudent(props) {
                         type="number"
                         className="form-input bg-light"
                         name="phone"
-                        onChange={onChangeSignupDetaiils}
                         required
+                        onChange={onChangeSignupDetaiils}
+                        
                         />
                     </Form.Group>
                   </Form.Row>
@@ -171,8 +170,9 @@ function SignUpStudent(props) {
                         className="form-input bg-light"
                         name="gender"
                         as="select"
-                        onChange={onChangeSignupDetaiils}
                         required
+                        onChange={onChangeSignupDetaiils}
+
                       >
                          <option value="">Select </option>
                         <option value="male">Male</option>
@@ -186,8 +186,9 @@ function SignUpStudent(props) {
                         className="form-input bg-light"
                         name="state"
                         as="select"
-                        onChange={onChangeSignupDetaiils}
                         required
+                        onChange={onChangeSignupDetaiils}
+                       
                         >
                         <option value="">- Select -</option>
                         <option value="Abia">Abia</option>
@@ -239,8 +240,9 @@ function SignUpStudent(props) {
                       className="form-input bg-light"
                       name="education_level"
                       as="select"
-                      onChange={onChangeSignupDetaiils}
                       required
+                      onChange={onChangeSignupDetaiils}
+                    
                       >
                       <option value="">Select</option>
                       <option value="National Diploma"> National Diploma OND.</option>
