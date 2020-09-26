@@ -1,7 +1,8 @@
 // eslint-disable-next-line
-import React, { useState } from 'react'
+import React, { useState } from "react";
 // import useField from '../hook/index'
-import {Form,Row,Col,Container,Button} from 'react-bootstrap';
+import {Form,Row,Col,Container,Button} from "react-bootstrap";
+import "../css/sign-up-tutor.scss";
  import NavigationBar from "./navbar";
  import Foot from "./Foot";
  import {emailValidator, nameValidator, passwordValidator, phoneValidator,fileValidator} from "./validator";
@@ -104,11 +105,11 @@ function SignUpTutor() {
     <div>
       <NavigationBar />
       <Container>
-      <h2 style={{textAlign: 'center'}}>Tutor Signup</h2>
+      <h2 style={{textAlign: "center"}}>Tutor Signup</h2>
       <div><ul>{message.map((msg, i) => <li key={i}>{msg}</li>)}</ul></div>
-        <Row className="justify-content-md-center signup-row">
+        <Row className="d-flex align-items-center justify-content-md-center signup-row">
           
-          <Col className="signup-col border" xs="8">
+          <Col md="12" lg="8" xs="12" className="signup-col border" >
             <h3 className="">Personal Information</h3>
             <Form className="form-style">
               <Col className="form-syle-col1">
@@ -160,7 +161,7 @@ function SignUpTutor() {
                 </Form.Row>
                 <Form.Row>
                   <Form.Group as={Col} md="6" controlId="exampleForm.ControlInput1">
-                    <Form.Label>Date of Birth</Form.Label>
+                     <Form.Label>Date of Birth</Form.Label>
                     <Form.Control
                       type="date"
                       className="form-input bg-light"
