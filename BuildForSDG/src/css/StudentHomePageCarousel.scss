@@ -1,6 +1,6 @@
 .slideImage {  
-  width:100%;
-  margin:20px;
+  width: 100%;
+  margin: 20px;
   // height: 100vh;
 }
 
@@ -9,7 +9,7 @@ svg {
 }
 
 .carouselItem img {
-  width:100%;
+  width: 100%;
   height: 100vh;
 }
 
@@ -23,8 +23,8 @@ svg {
   
 @media (max-width: 900px) {
   .carousel {
-    width:auto;
-    height:auto;
+    width: auto;
+    height: auto;
   }
 }
 
