@@ -5,6 +5,8 @@ import Login from "./components/Login"
 import "./css/app.scss";
 import "./css/signup-login.scss"
 import LandingPage from "./components/LandingPage";
+import StudentHomePage from "./components/StudentHomePage";
+// import Card from "./components/TutorCard";
 //import Home from "./components/Home";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -30,6 +32,8 @@ export default function App() {
         <Route path="/Login" component={Login} />
         <Route path="/SignUpStudent" component={SignUpStudent} />
         <Route path="/SignUpTutor" component={SignUpTutor}/>
+        <Route path="/studentHomePage" component={StudentHomePage}/>
+        {/* <Route path="/tutorCard" component={Card}/> */}
       </Switch>
     </div>
     </BrowserRouter>
