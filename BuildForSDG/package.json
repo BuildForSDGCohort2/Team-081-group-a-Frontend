@@ -8,12 +8,9 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-<<<<<<< HEAD
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
-=======
     "axios": "^0.20.0",
->>>>>>> e5eac80430451d5308d5ed7e1d79c41fc17e17ea
     "bootstrap": "^4.5.2",
     "node-sass": "^4.14.1",
     "react": "16.12.0",
