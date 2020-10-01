@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
 import "../css/StudentHomePageCarousel.scss";
 
 //import ControlledCarousel from "reactstrap";

@@ -3,7 +3,7 @@ import Studentnavbar from "./Studentnavbar";
 import StudentHomePageCarousel from "./StudentHomePageCarousel";
 import "../css/StudentHomePage.scss";
 import Card from "./TutorCard";
-import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
+import CheckCircleOutlineIcon from "@material-ui/icons/CheckCircleOutline";
 import Footer from "./footer";
  function StudentHomePage(){
      return(
