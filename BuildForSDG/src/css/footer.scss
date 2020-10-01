@@ -1,9 +1,10 @@
-.footer-background{
-  margin-top: 5%;
-}
 footer {
+  position: relative;
   text-align: center;
+  bottom: 0;
   width: 100%;
+  height: 2.5rem;
+  top: 100%;
 }
 
 footer p {
